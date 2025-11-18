@@ -1,0 +1,18 @@
+uv venv .venv --python=3.13
+# 가상 환경 디렉토리와 가상환경 이름을 지정.
+
+# 가상환경 활성화 
+Activate with: .venv\Scripts\activate
+
+# VS code에 가상환경을 python interpreter로 설정
+명령팔레트(ctr + shift + p) → python : Select interpreter
+- 주피터 노트북에서 "커널선택"에서 가상환경을 설정
+
+
+# 3rd party 패키지(라이브러리) 설치
+- uv pip install 패키지명
+- 반드시 uv로 설치해야 uv로 설치한 가상환경에 라이브러리가 install된다.
+
+- uv pip install ipykernel pandas matplotlib
+* ipykernel : 주피터 노트북 실행을 위해 필요.
+* ipykernel pandas matplotlib 3개를 한번에 설치
