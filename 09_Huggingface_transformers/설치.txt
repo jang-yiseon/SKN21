@@ -1,0 +1,8 @@
+uv venv .venv --python=3.12
+
+.venv\Scripts\activate
+
+uv pip install kiwipiepy
+
+pip install ipykernel ipywidgets
+

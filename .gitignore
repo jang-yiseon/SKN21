@@ -1,0 +1,19 @@
+.venv/
+.vscode/
+.env
+
+Python 환경 설치.pdf
+SK네트웍스 Family AI 캠프 21기-커리큘럼의 사본 - 커리큘럼.tsv
+파이썬 가상환경 생성.pdf
+git.txt
+
+*.tar.gz/
+*.zip/
+*.csv/
+*.txt/
+
+# ML / NLP data
+data/
+dataset/
+datasets/
+
